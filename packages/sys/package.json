@@ -1,0 +1,18 @@
+{
+  "name": "@cl/sys",
+  "description": "Cuilin Toole sys",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/dlxln/cl.git",
+  "author": "dlx <631830926@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bluebird": "^3.7.2",
+    "images": "^3.2.3",
+    "lodash": "^4.17.15",
+    "mkdirp": "^1.0.4",
+    "moment": "^2.29.4",
+    "sharp": "^0.25.2"
+  }
+}

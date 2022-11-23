@@ -1,0 +1,24 @@
+{
+  "name": "cl-tool",
+  "description": "Cuilin Toole ",
+  "repository": "https://github.com/dlxln/cl.git",
+  "author": "dlx <631830926@qq.com>",
+  "license": "MIT",
+  "version": "0.0.1",
+  "private": false,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "sinon": "^11.1.1"
+  },
+  "resolutions": {
+    "minimist": "^1.2.5"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "scripts": {
+    "test": "jest --runInBand --forceExit"
+  }
+}
